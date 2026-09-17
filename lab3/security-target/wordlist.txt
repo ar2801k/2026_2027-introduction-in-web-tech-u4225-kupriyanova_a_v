@@ -1,0 +1,7 @@
+admin
+backup
+config
+health
+login
+test
+hidden
