@@ -54,6 +54,10 @@ Hi ar2801k! You've successfully authenticated, but GitHub does not provide shell
 
 SSH-подключение к GitHub было успешно настроено.
 
+Результат проверки SSH-подключения к GitHub:
+
+![Проверка SSH-подключения](screenshots/01-ssh-auth.png)
+
 ### 3. Создание репозитория
 
 Был создан публичный GitHub-репозиторий:
@@ -61,6 +65,9 @@ SSH-подключение к GitHub было успешно настроено.
 ```text
 2026_2027-introduction-in-web-tech-u4225-kupriyanova_a_v
 ```
+Созданный публичный репозиторий GitHub:
+
+![Репозиторий GitHub](screenshots/05-final-repository.png)
 
 После создания репозиторий был клонирован на локальный компьютер.
 
@@ -79,6 +86,10 @@ SSH-подключение к GitHub было успешно настроено.
 - `lab1`
 - `lab2`
 - `lab3`
+
+Структура локального репозитория:
+
+![Структура репозитория](screenshots/02-repository-structure.png)
 
 Для каждой лабораторной работы предусмотрен отдельный файл отчёта в формате Markdown.
 
@@ -116,6 +127,10 @@ develop -> main
 
 После проверки изменений Pull Request был успешно объединён с основной веткой `main`.
 
+Результат объединения Pull Request:
+
+![Успешный Merge Pull Request](screenshots/03-pull-request-merged.png)
+
 ### 8. Синхронизация веток
 
 После объединения Pull Request локальная ветка `main` была синхронизирована с удалённым репозиторием.
@@ -134,6 +149,9 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 ```
+Финальная проверка состояния локального репозитория:
+
+![Финальное состояние Git](screenshots/04-final-git-status.png)
 
 Также была выполнена проверка локальных веток:
 
