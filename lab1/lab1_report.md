@@ -46,6 +46,9 @@ docker run hello-world
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ```
+Результат проверки работы Docker:
+
+![Проверка Docker](screenshots/01-hello-world.png)
 
 ### 2. Изучение базовых команд Docker
 
@@ -103,6 +106,10 @@ curl --version
 
 Результат подтвердил, что `curl` успешно установлен и доступен внутри контейнера.
 
+Результат установки и проверки curl внутри Ubuntu-контейнера:
+
+![Проверка curl](screenshots/02-ubuntu-curl.png)
+
 После завершения работы был выполнен выход из контейнера:
 
 ```bash
@@ -134,6 +141,9 @@ http://localhost:8080
 ```text
 Welcome to nginx!
 ```
+Результат запуска веб-сервера nginx:
+
+![Запущенный nginx](screenshots/03-nginx.png)
 
 Для просмотра логов контейнера была выполнена команда:
 
@@ -207,6 +217,9 @@ docker exec -it arina-volume-test bash
 ```bash
 echo "Hello from volume" > /data/test.txt
 ```
+Проверка сохранения данных Docker volume после удаления исходного контейнера:
+
+![Проверка Docker volume](screenshots/04-volume.png)
 
 Содержимое файла было проверено командой:
 
@@ -338,6 +351,9 @@ docker build --no-cache -t my-flask-app .
 ```text
 my-flask-app:latest
 ```
+Результат успешной сборки собственного Docker-образа:
+
+![Сборка Flask-образа](screenshots/05-flask-build.png)
 
 ### 10. Запуск Flask-контейнера
 
@@ -364,6 +380,9 @@ curl.exe http://localhost:5000
 ```text
 Hello from Docker!
 ```
+Результат работы Flask-приложения в Docker-контейнере:
+
+![Работа Flask-приложения](screenshots/06-flask-result.png)
 
 Это подтверждает, что Flask-приложение успешно работает внутри Docker-контейнера.
 
